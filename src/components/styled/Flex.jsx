@@ -6,7 +6,10 @@ const Flex = styled.div`
   justify-content: center;
   padding: 1.5rem;
   gap: 1rem;
-  @media (max-width: 700px) {
+  /* @media (max-width: 700px) {
+    flex-direction: column;
+  } */
+  @media (max-width: ${({theme})=>theme.breakpoints.md}) {
     flex-direction: column;
   }
   & div{
