@@ -1,5 +1,5 @@
 import Button from "./styled/Button"
-import Flex from "./styled/Flex"
+// import Flex from "./styled/Flex"
 import Nav from "./styled/Nav"
 
 const Header = () => {
