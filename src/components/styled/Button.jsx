@@ -15,6 +15,8 @@ const Button = styled.button`
     opacity: 0.9;
     transform: scale(0.97);
   }
+
+  @media (max-width: ${({theme})=>theme.breakpoints.sm})
 `
 
 export default Button

@@ -15,5 +15,7 @@ export const GlobalStyles = createGlobalStyle`
     line-height: 2;
     opacity: 0.7;
  }
-
+/* screens: {
+   lg: "992px",
+ }, */
 `

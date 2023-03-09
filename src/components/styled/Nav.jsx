@@ -16,7 +16,7 @@ const Nav = styled.nav`
     flex-direction: column;
   } */
 
-  @media (max-width: ${({theme})=>theme.breakpoints.sm}) {
+  @media (max-width: ${({theme})=>theme.breakpoints.md}) {
     text-align: center;
   }
 `
